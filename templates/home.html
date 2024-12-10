@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Imobiliária</title>
+</head>
+<body>
+    <h1>Bem-vindo à Imobiliária!</h1>
+    <form method="POST" action="{{ url_for('login') }}">
+        <label for="username">Usuário:</label>
+        <input type="text" name="username" required><br>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required><br>
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
